@@ -1,0 +1,18 @@
+
+config/pkgr.yml etc/chess-rate-server
+
+config/database.yml etc/chess-rate-server
+
+config opt/local/chess-rate-server
+.bundle opt/local/chess-rate-server
+Gemfile opt/local/chess-rate-server
+Gemfile.lock opt/local/chess-rate-server
+config.ru opt/local/chess-rate-server
+Rakefile opt/local/chess-rate-server
+app opt/local/chess-rate-server
+bin opt/local/chess-rate-server
+db/* var/db/chess-rate-server
+lib opt/local/chess-rate-server
+public opt/local/chess-rate-server
+script opt/local/chess-rate-server
+vendor opt/local/chess-rate-server

@@ -1,0 +1,10 @@
+# chess-rate-server logs:
+/var/log/chess-rate-server/*.log {
+  daily
+  missingok
+  rotate 14
+  compress
+  delaycompress
+  notifempty
+  copytruncate
+}

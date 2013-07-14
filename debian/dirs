@@ -1,0 +1,2 @@
+var/log/chess-rate-server
+var/db/chess-rate-server

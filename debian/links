@@ -1,0 +1,7 @@
+
+etc/chess-rate-server/pkgr.yml opt/local/chess-rate-server/config/pkgr.yml
+
+etc/chess-rate-server/database.yml opt/local/chess-rate-server/config/database.yml
+
+var/log/chess-rate-server opt/local/chess-rate-server/log
+var/db/chess-rate-server opt/local/chess-rate-server/db

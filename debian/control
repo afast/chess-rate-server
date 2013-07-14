@@ -1,0 +1,12 @@
+Source: chess-rate-server
+Section: unknown
+Priority: extra
+Maintainer: Andreas Fast <andreas.fast@moove-it.com>
+Build-Depends: debhelper (>= 7),dpkg-dev,ruby1.9.1-full,libmysqlclient15-dev,libxml2-dev,libxslt-dev,libsqlite3-dev
+Standards-Version: 3.7.3
+Homepage: 
+
+Package: chess-rate-server
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby1.9.1-full, git-core, libxml2, libxslt1.1
+Description: 
