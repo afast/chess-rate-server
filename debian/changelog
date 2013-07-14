@@ -1,3 +1,9 @@
+chess-rate-server (0.1.0-6) unstable; urgency=low
+
+  * 58f4e7f [pkgr] Add debian files.
+
+ -- Andreas Fast <andreas.fast@moove-it.com>  Sun, 14 Jul 2013 20:40:25 -0300
+
 chess-rate-server (0.1.0-5) unstable; urgency=low
 
   * f3c40f8 [pkgr] Add debian files.
