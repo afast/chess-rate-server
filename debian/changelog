@@ -1,0 +1,11 @@
+chess-rate-server (0.1.0-1) unstable; urgency=low
+
+  * d446193 [pkgr] Add executable file.
+  * 3a2bf4d [pkgr] Add debian files.
+  * 80fa59a [pkgr] Update configuration files.
+  * e3d0a0d Add Gemfile
+  * a150372 initial
+  * 72b2aa0 Initial commit
+
+ -- Andreas Fast <andreas.fast@moove-it.com>  Sun, 14 Jul 2013 20:23:18 -0300
+
