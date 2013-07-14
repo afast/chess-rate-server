@@ -1,0 +1,21 @@
+.span4
+  %h3
+    Analyze: #{description}
+  %h4
+    = name
+  = form_tag path: path do
+    .field
+      = label_tag :time
+      = number_field_tag :time, 5000, step: :any, min: 300
+      %p.help miliseconds
+    .field
+      = label_tag :tie_threshold
+      = number_field_tag :tie_threshold, 1, step: :any, min: 0.01
+      %p.help float
+    .field
+      = label_tag :blunder_threshold
+      = number_field_tag :blunder_threshold, 3, step: :any, min: 1
+      %p.help float
+    .actions
+      = submit_tag 'Process', class: 'btn'
+
