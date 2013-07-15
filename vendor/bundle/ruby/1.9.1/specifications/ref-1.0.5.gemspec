@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.rdoc_options = ["--charset=UTF-8", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "Library that implements weak, soft, and strong references in Ruby."
 
   if s.respond_to? :specification_version then

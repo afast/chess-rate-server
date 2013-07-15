@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://slim-lang.com/"
   s.require_paths = ["lib"]
   s.rubyforge_project = "slim"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "Slim is a template language."
 
   if s.respond_to? :specification_version then

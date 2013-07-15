@@ -208,10 +208,10 @@ module Pkgr
         archive = "#{name}-#{version}"
         sh "scp #{File.expand_path("../data/config/pre_boot.rb", __FILE__)} #{host}:/tmp/"
         cmd = %Q{
-          git archive #{git_ref} --prefix=#{archive}/ | ssh #{host} -t 'cat - > /tmp/#{archive}.tar &&
+          git archive #{git_ref} --prefix=#{archive}/ | cat - > /tmp/#{archive}.tar &&
             set -x && rm -rf /tmp/#{archive} &&
             cd /tmp && tar xf #{archive}.tar && cd #{archive} &&
-            cat config/boot.rb >> /tmp/pre_boot.rb && cp -f /tmp/pre_boot.rb config/boot.rb'
+            cat config/boot.rb >> /tmp/pre_boot.rb && cp -f /tmp/pre_boot.rb config/boot.rb
         }
         sh cmd
         sh "cd /tmp/#{archive} && #{debian_steps.join(" &&\n")}"

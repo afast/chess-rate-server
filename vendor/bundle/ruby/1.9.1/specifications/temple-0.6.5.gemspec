@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email = ["judofyr@gmail.com", "mail@daniel-mendler.de"]
   s.homepage = "https://github.com/judofyr/temple"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "Template compilation framework in Ruby"
 
   if s.respond_to? :specification_version then

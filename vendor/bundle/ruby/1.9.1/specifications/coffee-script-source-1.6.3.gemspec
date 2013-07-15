@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "coffee-script-source"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "The CoffeeScript Compiler"
 
   if s.respond_to? :specification_version then

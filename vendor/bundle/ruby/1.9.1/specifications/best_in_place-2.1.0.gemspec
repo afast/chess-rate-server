@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/bernat/best_in_place"
   s.require_paths = ["lib"]
   s.rubyforge_project = "best_in_place"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "It makes any field in place editable by clicking on it, it works for inputs, textareas, select dropdowns and checkboxes"
 
   if s.respond_to? :specification_version then

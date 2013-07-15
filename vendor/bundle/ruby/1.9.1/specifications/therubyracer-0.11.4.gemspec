@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.files = ["ext/v8/extconf.rb"]
   s.homepage = "http://github.com/cowboyd/therubyracer"
   s.require_paths = ["lib", "ext"]
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "Embed the V8 JavaScript interpreter into Ruby"
 
   if s.respond_to? :specification_version then

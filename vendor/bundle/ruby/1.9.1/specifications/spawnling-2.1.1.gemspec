@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = ["tom@squeat.com"]
   s.homepage = "http://github.com/tra/spawnling"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "Easily fork OR thread long-running sections of code in Ruby"
 
   if s.respond_to? :specification_version then

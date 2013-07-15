@@ -1,0 +1,28 @@
+---
+version: 0.1.1
+name: chess-rate-server
+description: A rails server to evaluate your chess performance
+git_ref: pkgr-master
+config_files:
+- pkgr.yml
+- database.yml
+architecture: amd64
+debian_runtime_dependencies:
+- ${shlibs:Depends}
+- ${misc:Depends}
+- ruby1.9.1-full
+- ruby-eventmachine
+- ruby-bcrypt
+- git-core
+- libxml2
+- libxslt1.1
+debian_build_dependencies:
+- debhelper (>= 7)
+- dpkg-dev
+- ruby1.9.1-full
+- ruby-bcrypt
+- libmysqlclient15-dev
+- ruby-eventmachine
+- libxml2-dev
+- libxslt-dev
+- libsqlite3-dev

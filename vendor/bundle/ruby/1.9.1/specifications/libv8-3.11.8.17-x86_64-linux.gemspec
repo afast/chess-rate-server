@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib", "ext"]
   s.rubyforge_project = "libv8"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "1.8.23"
   s.summary = "Distribution of the V8 JavaScript engine"
 
   if s.respond_to? :specification_version then
