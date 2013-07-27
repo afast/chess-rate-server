@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:afast/pkgr.git
+  revision: 5e86dda8cc07131ed48ded7e03bb1d631ca4c001
+  specs:
+    pkgr (0.3.4)
+      rake
+
 PATH
   remote: vendor/uci-0.0.2/
   specs:
@@ -86,8 +93,6 @@ GEM
     mime-types (1.23)
     multi_json (1.7.7)
     orm_adapter (0.4.0)
-    pkgr (0.3.4)
-      rake
     polyglot (0.3.3)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
@@ -164,7 +169,7 @@ DEPENDENCIES
   factory_girl_rails
   haml-rails
   jquery-rails
-  pkgr
+  pkgr!
   quiet_assets
   rails (= 3.2.13)
   rake (= 10.1.0)

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Chess Rate
+Type=Link
+URL=http://localhost:8000/
+Icon=/opt/local/chess-rate-server/app/assets/images/Chess-King-Queen.jpg

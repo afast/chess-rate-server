@@ -1,12 +1,13 @@
 ---
-version: 0.1.1
+version: 0.1.6
 name: chess-rate-server
 description: A rails server to evaluate your chess performance
 git_ref: pkgr-master
 config_files:
 - pkgr.yml
 - database.yml
-architecture: amd64
+- chess-rate-server.desktop
+architecture: all
 debian_runtime_dependencies:
 - ${shlibs:Depends}
 - ${misc:Depends}

@@ -37,7 +37,6 @@ gem 'slim', ">= 1.3.0"
 group :development do
   gem 'thin'
   gem 'quiet_assets'
-  gem 'pkgr'
 end
 
 group :test do
@@ -49,6 +48,4 @@ group :production do
   gem 'thin'
 end
 
-gem 'pkgr'
-
-gem 'thin'
+gem 'pkgr', git: 'git@github.com:afast/pkgr.git'

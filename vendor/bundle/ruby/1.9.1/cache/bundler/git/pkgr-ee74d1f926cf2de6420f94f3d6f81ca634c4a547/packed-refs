@@ -1,0 +1,4 @@
+# pack-refs with: peeled 
+72e3a9d77940eb8e71678474a6cfd74797ab7cf0 refs/heads/assets-precompiling
+614a0ee1fbb93db2da976815298043dd329da50b refs/heads/gh-pages
+5e86dda8cc07131ed48ded7e03bb1d631ca4c001 refs/heads/master

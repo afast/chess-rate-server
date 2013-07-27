@@ -38,6 +38,12 @@ case "$1" in
         chown -R $USER.$GROUP /etc/$NAME/
         chown -R $USER.$GROUP /var/db/$NAME/
         chown -R $USER.$GROUP /var/log/$NAME/
+        $NAME rake db:migrate
+        for user in /home/*
+        do
+          cp /etc/$NAME/$NAME.desktop ${user}/Desktop/
+          chmod 766 ${user}/Desktop/$NAME.desktop
+        done
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

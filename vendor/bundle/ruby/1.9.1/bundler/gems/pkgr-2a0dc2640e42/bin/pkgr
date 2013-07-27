@@ -3,6 +3,10 @@
 require 'optparse'
 require 'pkgr/cli'
 
+require 'bundler'
+
+Bundler.require(*Rails.groups(:assets => %w(development test)))
+
 OPTIONS = {:dir => "./", :ref => "master", :reuse => false}
 
 option_parser = OptionParser.new do |opts|
